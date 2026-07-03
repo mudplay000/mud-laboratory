@@ -63,6 +63,12 @@ nav a:hover {
     color: var(--primary-color);
 }
 
+nav a.active {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 4px;
+}
+
 /* ==========================
    Hero
 ========================== */
@@ -86,8 +92,24 @@ nav a:hover {
     font-size: 1.1rem;
 }
 
-nav a.active {
-    color: var(--primary-color);
-    border-bottom: 2px solid var(--primary-color);
-    padding-bottom: 4px;
+
+/* ==========================
+   Main Layout
+========================== */
+
+main {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* ==========================
+   Footer
+========================== */
+
+footer {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
 }
