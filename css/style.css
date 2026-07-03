@@ -85,3 +85,9 @@ nav a:hover {
     color: var(--text-muted);
     font-size: 1.1rem;
 }
+
+nav a.active {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 4px;
+}
