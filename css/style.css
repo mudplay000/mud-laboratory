@@ -62,3 +62,26 @@ nav a {
 nav a:hover {
     color: var(--primary-color);
 }
+
+/* ==========================
+   Hero
+========================== */
+
+.hero {
+    max-width: var(--max-width);
+    margin: 60px auto;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: 0 auto 40px;
+    color: var(--text-muted);
+    font-size: 1.1rem;
+}
