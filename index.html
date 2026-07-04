@@ -5,12 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mud Laboratory</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/branding/mudlaboratory_favicon32.png"
+    />
   </head>
   <body>
+    <div class="background"></div>
     <header>
       <div class="logo">
-        <h1>Mud Laboratory</h1>
-        <p>Experiment. Learn. Build.</p>
+        <img
+          src="images/branding/mudlaboratory_image75.png"
+          alt="Mud Laboratory Logo"
+        />
+        <div>
+          <h1>Mud Laboratory</h1>
+          <p>Experiment. Learn. Build.</p>
+        </div>
       </div>
       <nav>
         <ul>
@@ -22,61 +35,86 @@
         </ul>
       </nav>
     </header>
+
     <main>
-      <section class="hero">
+      <section class="hero">                                                <!-- Beginning Of Hero Section -->
         <div class="hero-content">
-            <p class="hero-badge">
-                🚀 Learning in Public
-            </p>
-            <h2>Building Websites
-            With Purpose
-            </h2>
-            <p class="hero-description">
-            Welcome to Mud Laboratory—
-            my digital workshop where I design,
-            build, and document my journey toward
-            becoming a professional freelance web developer.
-            </p>
-            <div class="hero-buttons">
-                <a href="projects.html" class="btn btn-primary">
-                    View My Projects
-                </a>
-                <a href="contact.html" class="btn btn-secondary">
-                    Contact Me
-                </a>
-            </div>
+          <p class="hero-badge">🚀 Learning in Public</p>
+          <h2 class="hero-title">Building Websites With Purpose</h2>
+          <p class="hero-description">
+            Welcome to Mud Laboratory— my digital workshop where I design,
+            build, and document my journey toward becoming a professional
+            freelance web developer.
+          </p>
+          <div class="hero-buttons">
+            <a href="projects.html" class="btn btn-primary">
+              View My Projects
+            </a>
+            <a href="contact.html" class="btn btn-secondary"> Contact Me </a>
+          </div>
         </div>
         <div class="hero-image">
-            <!-- We will place an illustration here later -->
+          <!-- We will place an illustration here later -->
         </div>
-      </section>
-      <section>
-        <h2>About Preview</h2>
-        <p>
-          Hi, I'm Mud, an IT professional passionate about web development,
-          cloud technologies, and continuous learning.
-          <a href="about.html">Read more →</a>
-        </p>
-      </section>
-      <section>
-        <h2>Services</h2>
-        <ul>
-          <li>Website Development</li>
-          <li>Responsive Design</li>
-          <li>Website Deployment</li>
-          <li>Learning & Experimentation</li>
-        </ul>
-      </section>
-      <section>
-        <h2>Contact</h2>
-        <p>
-          I'm currently building this website. The Contact page will be
-          available soon.
-        </p>
-      </section>
+      </section>                                                             <!-- End Of Hero Section -->
+      <div class="home-grid">                                                <!-- Beginning Of Card Section -->
+        <section class="home-card">
+          <h2>About Mud Laboratory</h2>
+          <p>
+            Mud Laboratory is my digital workshop where ideas become projects.
+            As an IT professional transitioning into web development, I'm
+            documenting every lesson, experiment, and milestone while building
+            modern websites from the ground up.
+          </p>
+          <a href="about.html" class="text-link"> Read My Story → </a>
+        </section>
+
+        <section class="home-card">
+          <h2>🧪 Current Experiment</h2>
+          <p>
+            Mission:
+            Become a professional freelance web developer.
+          </p>
+          <ul class="journey-list">
+            <li>✅ HTML Fundamentals</li>
+            <li>✅ Semantic HTML</li>
+            <li>✅ CSS Fundamentals</li>
+            <li>✅ Flexbox</li>
+            <li>✅ Git & GitHub</li>
+            <li>✅ GitHub Pages</li>
+            <li>🟡 Responsive Design</li>
+            <li>⬜ JavaScript</li>
+            <li>⬜ React</li>
+            <li>⬜ First Freelance Client</li>
+          </ul>
+        </section>
+
+        <section class="home-card">
+          <h2>Featured Projects</h2>
+          <p>
+            Every project is another experiment.
+
+            Follow my progress as I build websites,
+            solve real-world problems, and grow my portfolio one project at a time.
+          </p>
+          <a href="projects.html" class="text-link"> Explore Projects → </a>
+        </section>
+
+        <section class="home-card">
+          <h2>Let's Connect</h2>
+          <p>
+            Whether you're here to follow my journey,
+            collaborate on a project,
+            or simply say hello,
+            I'd love to hear from you.
+          </p>
+          <a href="contact.html" class="text-link"> Contact me → </a>
+        </section>
+      </div>                                                                     <!-- End Of Card Section -->
+
     </main>
     <footer>
-    <p>&copy; Mud Laboratory 2026. All rights reserved.</p>
+      <p>&copy; Mud Laboratory 2026. All rights reserved.</p>
     </footer>
   </body>
 </html>
