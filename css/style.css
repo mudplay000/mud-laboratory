@@ -1,7 +1,11 @@
-/* ==========================================
+/* ==================================================
    Mud Laboratory Design System
    Version: 1.0
-========================================== */
+
+   Author  : Mud
+   Project : Mud Laboratory
+   Purpose : Personal Portfolio & Learning Journey
+================================================== */
 :root {
     /* ==========================================
        Brand Colors
@@ -265,6 +269,7 @@ section {
 section p {
     font-size: 1.15rem;
     line-height: 1.8;
+    margin-bottom: var(--space-sm);
 }
 
 /* ==========================
